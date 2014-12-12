@@ -1,5 +1,8 @@
 FoodleyFinal
 ============
+
+project is built for Android and iOS
+
 The following plugins are required to run our app
 
 
