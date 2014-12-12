@@ -74,6 +74,9 @@ function pageCheckIn() {
 	 backBtn = document.querySelector(".backBtn");
 	 backBtn.addEventListener("click", homePageDeleteBtn);
 	
+	var checkInButton = document.getElementById("checkInBTN");
+	checkInButton.addEventListener("click", checkInBTN);
+	
 	function homePageDeleteBtn() {
 	 header.removeChild(backButton);
 	 home.style.display = "block";
@@ -172,7 +175,6 @@ function pagePhotos() {
 	 
 	 backBtn = document.querySelector(".backBtn");
 	 backBtn.addEventListener("click", homePageDeleteBtn);
-	 contactFunc();
 	 
 	 function homePageDeleteBtn() {
 	 header.removeChild(backButton);

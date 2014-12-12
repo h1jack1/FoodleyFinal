@@ -8,8 +8,7 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/menuScript.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
-<script type="text/javascript" src="js/reserve.js"></script>
-<script type="text/javascript" src="js/contactUs.js"></script>       
+<script type="text/javascript" src="js/reserve.js"></script>      
 <script type="text/javascript" src="js/reservationData.js"></script>
 <script type="text/javascript" src="js/CheckOut.js"></script>
 <script src="js/CheckIn.js"></script>
@@ -51,7 +50,7 @@
            
            <div id="buttonCheckOut">Check Out</div>
            
-           <div id="buttonPhoto">Photo Gallery</div>
+           <div id="buttonPhoto">Contact Us</div>
             
             
 </div>
@@ -69,15 +68,16 @@
 			  <ul class="table-view">
 				<li class="table-view-cell table-view-divider">Reservation</li>
 				<li id="reservationInfo" class="table-view-cell">Check In First</li>
-				<li class="table-view-cell table-view-divider">Aproximate Wait Time</li>
+				<li id="waitTime" class="table-view-cell table-view-divider">Aproximate Wait Time</li>
 				<li id="timer" class="table-view-cell">Press Check In When Arived</li>
 			  </ul>
 		</div>
-		<button id="checkInBTN" type="button" style="margin-top:40px;" class="btn btn-positive btn-block" onClick="checkInBTN()">Check In</button>
+		<button id="checkInBTN" type="button" style="margin-top:40px;" class="btn btn-positive btn-block">Check In</button>
 	</div>
 	
 	
 </div>
+
 
 
 <div data-role="page" id="menuPage">
@@ -93,8 +93,25 @@
 </div>
 
 <div data-role="page" id="photoPage">
-<p class="text6">Photo Page</p>
+
+<div class="top">
+	
+	<ul class="table-view1 spacing">
+		<li class="table-view-cell table-view-divider1">Contact Us</li>	
+    </ul>
+	  <h4 class="table-view-divider2">Any questions or conerns, feel free to call us or send an email.</h4>
+	
+	<div class="spacing">
+		<button id="Em" class="btn  btn-positive btn-block1" onclick="emailButton()">Send Email</button>
+	  	<button id="Em" class="btn  btn-positive btn-block1" onclick="callButton()">Call Us</button>
+	</div>
+	
 </div>
+	
+	
+	
+</div>
+
 		
 		
 <div id="footer">
