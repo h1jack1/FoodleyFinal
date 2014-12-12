@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#menuDiv1 {
+
+position: absolute;
+top: 2%;
+width: 100%;
+height: 20%;
+font-size: 11px;
+}
+
+#menuDiv2 {
+
+position: absolute;
+top: 27%;
+width: 100%;
+height: 20%;
+font-size: 11px;
+}
+
+#menuDiv3 {
+
+position: absolute;
+top: 55%;
+width: 100%;
+height: 16%;
+font-size: 11px;
+}
+
+
+#appDiv0 {
+	position: absolute;
+	top: 65%;
+	left: 11%;
+	width: 15%;
+	height: 15%;
+}
+
+#appDiv1 {
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	width: 15%;
+	height: 15%;
+}
+
+#appDiv2 {
+	position: absolute;
+	top: 65%;
+	left: 70%;
+	width: 15%;
+	height: 15%;
+}
+
+#dishesDiv0 {
+	position: absolute;
+	top: 65%;
+	left: 11%;
+	width: 15%;
+	height: 15%;
+}
+
+#dishesDiv1 {
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	width: 15%;
+	height: 15%;
+}
+
+#dishesDiv2 {
+	position: absolute;
+	top: 65%;
+	left: 70%;
+	width: 15%;
+	height: 15%;
+}
+
+#dessertsDiv0 {
+	position: absolute;
+	top: 65%;
+	left: 11%;
+	width: 15%;
+	height: 15%;
+}
+
+#dessertsDiv1 {
+	position: absolute;
+	top: 65%;
+	left: 40%;
+	width: 15%;
+	height: 15%;
+}
+
+#dessertsDiv2 {
+	position: absolute;
+	top: 65%;
+	left: 70%;
+	width: 15%;
+	height: 15%;
+}
+
+
+#cartList{
+	display: none;
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	top: 80%;
+	left: 13%;
+	font-size: 12px;
+	
+}
+
+#cartListItems{
+float: left;
+}
+
+#cartListCost{
+position: absolute;
+left: 90%;
+}
+
+#appImageHolder0 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+#appImageHolder1 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+
+#appImageHolder2 img{
+	margin-top: 7px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+
+#dishesImageHolder0 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+#dishesImageHolder1 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+
+#dishesImageHolder2 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+#dessertsImageHolder0 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+#dessertsImageHolder1 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+
+#dessertsImageHolder2 img{
+	margin-top: 10px;
+	width: 60px;
+	height: 50px;
+	
+}
+
+#appName, #dishesName, #dessertsName{
+	padding-top: 7px;
+}
+
+
+
+#appCost, #dishesCost, #dessertsCost{
+	padding-top: 2px;
+	color: #3cb371;
+}
+
+#cartList {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	text-size: 8px;
+}
+
+#footer{
+	
+	margin-top: 90%;
+}
+
+#cartName{
+
+}
+
+#orderButton {
+  background: #aecbd9;
+  background-image: -webkit-linear-gradient(top, #aecbd9, #3cb371);
+  background-image: -moz-linear-gradient(top, #aecbd9, #3cb371);
+  background-image: -ms-linear-gradient(top, #aecbd9, #3cb371);
+  background-image: -o-linear-gradient(top, #aecbd9, #3cb371);
+  background-image: linear-gradient(to bottom, #aecbd9, #3cb371);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 5px;
+  padding: 10px 12px 10px 12px;
+  text-decoration: none;
+  position: absolute;
+  top: 24%;
+  left: 81%;
+  
+}
+
+#orderButton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
