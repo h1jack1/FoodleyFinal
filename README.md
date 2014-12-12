@@ -13,4 +13,4 @@ org.apache.cordova.inappbrowser
 
 Add this to the android Manifest 
 
-<uses-permission android:name="android.permission.INTERNET" />
+"<uses-permission android:name="android.permission.INTERNET" />"
