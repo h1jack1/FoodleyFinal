@@ -127,7 +127,7 @@ function pageSignUp() {
 	 
 	 backBtn = document.querySelector(".backBtn");
 	 backBtn.addEventListener("click", homePageDeleteBtn);
-
+	signUpInit();
 	function homePageDeleteBtn() {
 	 header.removeChild(backButton);
 	 home.style.display = "block";

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+#signUpForm {
+	margin: 4rem auto;
+	width: 90%;
+}
+
+.signUpInput{
+	width: 90%;
+	margin: 1rem auto;
+}
+
+.signUpInput input{
+    border: 2px solid #CFCFCF; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+	font-size: 13px;
+	width: 90%;
+}
+
+#signUpSubmit {
+	background: #aecbd9;
+	background-image: -webkit-linear-gradient(top, #aecbd9, #3cb371);
+	background-image: -moz-linear-gradient(top, #aecbd9, #3cb371);
+	background-image: -ms-linear-gradient(top, #aecbd9, #3cb371);
+	background-image: -o-linear-gradient(top, #aecbd9, #3cb371);
+	background-image: linear-gradient(to bottom, #aecbd9, #3cb371);
+	-webkit-border-radius: 30;
+	-moz-border-radius: 30;
+	border-radius: 30px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 15px;
+	text-decoration: none;
+	width: 100%;
+}
+
+#signUpEmailGood {
+	display:none;
+}
+
+#signUpPwdGood {
+	display:none;
+}
+
+#signUpEmailGood.signUpBad {
+	display:block;
+	color: #F1181B;
+	font-size:12px;
+}
+
+#signUpPwdGood.signUpBad {
+	display:block;
+	color: #F1181B;
+	font-size:12px;
+}
